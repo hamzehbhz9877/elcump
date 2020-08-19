@@ -2,10 +2,10 @@ import React from 'react';
 import SearchHeader from "../../../../header/searchHeader";
 import {NavLink} from "react-router-dom";
 
-const AdjustingExhibitionServicesEvents = () => {
+const SetCardStoreEvents = () => {
     return (
         <>
-            <NavLink to={"/panelDashboard/eventManagement/adjustingExhibitionServices/newAes"}>
+            <NavLink to={"/panelDashboard/eventManagement/SetCardStore/newSce"}>
                 <button type="button" className="btn btn-primary my-5"><p><i className="fa fa-plus mr-2"></i>اضافه کردن کارت جدید</p></button>
             </NavLink>
             <div className="d-inline-flex justify-content-between w-100 mb-2">
@@ -97,4 +97,4 @@ const AdjustingExhibitionServicesEvents = () => {
     );
 };
 
-export default AdjustingExhibitionServicesEvents;
+export default SetCardStoreEvents;

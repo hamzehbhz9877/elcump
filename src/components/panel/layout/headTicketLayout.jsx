@@ -8,7 +8,7 @@ const HeadTicketLayout = ({breadCrumb}) => {
                 <i className="fa fa-quote-left"></i>
                 <div className="pr-2 text-left">
                     <p className="color">{breadCrumb}</p>
-                    <h6 className="color">نمایشگاه بین المللی الکامپ 2020 </h6>
+                    <h6 className="color">ادمین نمایشگاه الکامپ</h6>
                 </div>
             </div>
             <div>

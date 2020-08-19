@@ -16,17 +16,17 @@ import RialSectionSettings
     from "../components/panel/dashboard/eventManagement/rialSectionSettings/rialSectionSettings";
 import ManageRegistrationDocuments
     from "../components/panel/dashboard/eventManagement/manageRegistrationDocuments/manageRegistrationDocuments";
-import AdjustingExhibitionServices
-    from "../components/panel/dashboard/eventManagement/adjustingExhibitionServices/adjustingExhibitionServices";
-import NewAes from "../components/panel/dashboard/eventManagement/adjustingExhibitionServices/newAES";
+
 import NewAbg from "../components/panel/dashboard/eventManagement/manageBuildersGuarantee/newABG";
 import ManageBuildersGuarantee
     from "../components/panel/dashboard/eventManagement/manageBuildersGuarantee/manageBuildersGuarantee";
 import HallManagement from "../components/panel/dashboard/eventManagement/hallManagement/hallManagement";
 import NewHme from "../components/panel/dashboard/eventManagement/hallManagement/newHME";
+import SetCardStore from "../components/panel/dashboard/eventManagement/setCardStore/setCardStore";
+import NewSCE from "../components/panel/dashboard/eventManagement/setCardStore/newSCE";
 
 
-const Elcump = () => {
+const Elcomp = () => {
 
     useEffect(() => {
         //examin token
@@ -41,8 +41,8 @@ const Elcump = () => {
                         <Route component={HallManagement} path="/panelDashboard/eventManagement/hallManagementEvents"/>
                         <Route component={NewAbg} path="/panelDashboard/eventManagement/manageBuildersGuarantee/newAbg"/>
                         <Route component={ManageBuildersGuarantee} path="/panelDashboard/eventManagement/manageBuildersGuarantee"/>
-                        <Route component={NewAes} path="/panelDashboard/eventManagement/adjustingExhibitionServices/newAes"/>
-                        <Route component={AdjustingExhibitionServices} path="/panelDashboard/eventManagement/adjustingExhibitionServices"/>
+                        <Route component={NewSCE} path="/panelDashboard/eventManagement/SetCardStore/newSce"/>
+                        <Route component={SetCardStore} path="/panelDashboard/eventManagement/SetCardStore"/>
                         <Route component={ManageRegistrationDocuments} path="/panelDashboard/eventManagement/manageRegistrationDocuments"/>
                         <Route component={RialSectionSettings} path="/panelDashboard/eventManagement/rialSectionSettings"/>
                         <Route component={EventInfrastructureSettings} path="/panelDashboard/eventManagement/eventInfrastructureSettings"/>
@@ -76,4 +76,4 @@ const Elcump = () => {
     )
 
 };
-export default Elcump
+export default Elcomp

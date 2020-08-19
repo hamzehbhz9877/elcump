@@ -21,9 +21,11 @@ const EventManagement = () => {
                                     ریالی</NavLink></li>
                                 <li><NavLink to={"/panelDashboard/eventManagement/manageRegistrationDocuments"}>تنظیمات
                                     مدارک تکمیلی بعد از ثبت نام </NavLink></li>
-                                <li>تنظیم تعداد کارت نسبت به متراژ غرفه</li>
-                                <li><NavLink to={"/panelDashboard/eventManagement/adjustingExhibitionServices"}>تنظیم
-                                    محدوده متراژ غرفه جهت خدمات نمایشگاهی</NavLink></li>
+                                <li> <NavLink to={"/panelDashboard/eventManagement/SetCardStore"}>
+                                    تنظیم تعداد کارت نسبت به متراژ غرفه
+                                </NavLink></li>
+                                <li>تنظیم
+                                    محدوده متراژ غرفه جهت خدمات نمایشگاهی</li>
                                 <li><NavLink to={"/panelDashboard/eventManagement/manageBuildersGuarantee"}> مدیریت
                                     تنظیمات میزان مبلغ تضمین غرفه سازان به نسبت متراژ غرفه</NavLink></li>
                                 <li><NavLink

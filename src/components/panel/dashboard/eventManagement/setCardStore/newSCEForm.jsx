@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NewAesForm = () => {
+const NewSCEForm = () => {
     return (
         <form className="mt-5">
             <div className="mb-3 w-50">
@@ -49,4 +49,4 @@ const NewAesForm = () => {
     );
 };
 
-export default NewAesForm;
+export default NewSCEForm;

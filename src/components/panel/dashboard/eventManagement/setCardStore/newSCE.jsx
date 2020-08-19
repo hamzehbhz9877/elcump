@@ -1,14 +1,14 @@
 import React from 'react';
 import HeadTicketLayout from "../../../layout/headTicketLayout";
-import NewAesForm from "./newAESForm";
+import NewSCEForm from "./newSCEForm";
 
-const NewAes = () => {
+const NewSCE = () => {
     return (
         <>
             <HeadTicketLayout breadCrumb={"مدیریت تیکت/تنظیم محدوده متراژ غرفه جهت خدمات نمایشگاهی/تنظیم کارت جدید"}/>
-            <NewAesForm/>
+            <NewSCEForm/>
         </>
     );
 };
 
-export default NewAes;
+export default NewSCE;
